@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6dddbd7e8b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header class="main-header" id="header">
+    <div class="header-nav ">
+    <nav class="navbar nav navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+   <img class="logo" src="./zanzi images/logo.png">
+    <button class="navbar-toggler btn-header" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">MENU</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Social Media
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.youtube.com/shorts/uk-a74Q0380" target="_bank"><img class="footer-slogo" src="zanzi images/finalytlogo.png">youtube</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com/semvandergucht/?next=%2F" target="_bank"><img class="footer-slogo" src="zanzi images/finaliglogo.png">instagram</a></li>
+            <li><a class="dropdown-item" href="https://open.spotify.com/user/31pjmsu3rstkpfzzmn6qrdvzp3hm" target="_bank"><img class="footer-slogo" src="zanzi images/finalsflogo.png">spotify</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+  </div>
+</nav>
+</div>
+
+    <h1 class="brand-name">Pizza Zanzi</h1>
+</header> 
+<section class="section-menu-page">
+<nav class="menu-links-nav" id="menu-nav">
+    <ul>
+        <li><a class="menu-link active" href="#pizzas">PIZZAS</a></li>
+        <li><a class="menu-link " href="#desserts">DESSERTS</a></li>
+    </ul>
+</nav>
+    
+    <section class="menu-pizzas" id="pizzas">
+       <h2 class="section-header">Pizzas</h2>
+       <div class="container shop-items">
+           <div class="card" id="item1">
+                <div class="pizzatitle">
+                 Pizza Margerita
+                </div>
+                <img src="./zanzi images/pizza-margherita.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9,88</span>
+                    
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>4 stuks</option>
+                            <option>8 stuks</option>
+                            <option>kinderpizza</option>
+                            <option>volwassenpizza</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button "  type="button">BESTEL NU</button>
+                </div>
+            </div>
+            <div class="card" id="item2">
+                <div class="pizzatitle">
+                 Pizza Pepperoni
+                </div>
+                <img src="./zanzi images/pepperoni_cheese_pizza.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9,88</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>4 stuks</option>
+                            <option>8 stuks</option>
+                            <option>kinderpizza</option>
+                            <option>volwassenpizza</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+            <div class="card" id="item3">
+                <div class="pizzatitle">
+                 Pizza Prosciutto
+                </div>
+                <img src="./zanzi images/Prosciutto-Parmesan-Pizza-Plated.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9,88</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>4 stuks</option>
+                            <option>8 stuks</option>
+                            <option>kinderpizza</option>
+                            <option>volwassenpizza</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+            <div class="card" id="item4">
+                <div class="pizzatitle">
+                 Pizza Vegetale
+                </div>
+                <img src="./zanzi images/pizza-vegetale.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9,88</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>4 stuks</option>
+                            <option>8 stuks</option>
+                            <option>kinderpizza</option>
+                            <option>volwassenpizza</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+          <div class="card" id="item5">
+                <div class="pizzatitle">
+                 Pizza Calzone
+                </div>
+                <img src="./zanzi images/calzone-2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9,88</span>
+                    
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>4 stuks</option>
+                            <option>8 stuks</option>
+                            <option>kinderpizza</option>
+                            <option>volwassenpizza</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+            <div class="card" id="item6">
+                <div class="pizzatitle">
+                 Zanzi Special
+                </div>
+                <img class="special-img" src="./zanzi images/zanzi special.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$23,48</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>4 stuks</option>
+                            <option>8 stuks</option>
+                            <option>kinderpizza</option>
+                            <option>volwassenpizza</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+       </div>
+    </section>
+    <section class="menu-desserts" id="desserts">
+        <h2 class="section-header">Desserts</h2>
+       <div class="container shop-items">
+           <div class="card" id="item7">
+                <div class="pizzatitle">
+                 Tiramisu
+                </div>
+                <img src="./zanzi images/tiramisu.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6,69</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>kinder stuk</option>
+                            <option>volwassen stuk</option>
+                            <option>1/2 portie</option>
+                            <option>1 portie</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+            <div class="card" id="item8">
+                <div class="pizzatitle">
+                 Zucotto
+                </div>
+                <img src="./zanzi images/zucotto.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6,69</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>kinder potje</option>
+                            <option>volwassen pot</option>
+                            <option>1kg</option>
+                            <option>1 emmer</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+            <div class="card" id="item9">
+                <div class="pizzatitle">
+                 Cannoli met frambozen
+                </div>
+                <img src="./zanzi images/cannoli-met-frambozen.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$7,38</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>2 stuks</option>
+                            <option>4 stuks</option>
+                            <option>kinder portie</option>
+                            <option>volwassen portie</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+            <div class="card" id="item10">
+                <div class="pizzatitle">
+                 Crostata ricotta
+                </div>
+                <img src="./zanzi images/crostata-ricotta.webp">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6,69</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>2 stuks</option>
+                            <option>4 stuks</option>
+                            <option>kinder portie</option>
+                            <option>volwassen portie</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+            <div class="card" id="item11">
+                <div class="pizzatitle">
+                 Panna cotta
+                </div>
+                <img src="./zanzi images/panna-cotta-met-passievrucht.webp">
+                <div  class="shop-item-details">
+                    <span class="shop-item-price">$6,69</span>
+                     
+                    <span class="shop-item-quantity">
+                        <label>FORMAAT: </label>
+                        <select>
+                            <option>kinder potje</option>
+                            <option>volwassen pot</option>
+                            <option>1kg</option>
+                            <option>1 emmer</option>
+                        </select>
+                    </span>
+                    
+                        <button class="shop-item-button" type="button">BESTEL NU</button>
+                </div>
+            </div>
+            </div>
+   </section>
+</section>   
+  
+  <footer class=" footer d-flex flex-wrap justify-content-between align-items-center  border-top">
+   
+    <div class="col-md-4 d-flex align-items-center">
+      <a  class=" me-2 text-decoration-none ">
+        <img class="footer-logo" src="zanzi images/logo.png">
+      </a>
+      <span>&copy; 2023 Pizza Zanzi, Inc</span>
+    </div>
+
+    <h3>Pizza Zanzi</h3>
+
+ <ul class="nav justify-content-end list-unstyled ">
+    <li class="ms-3">
+        <a href="https://www.youtube.com/shorts/uk-a74Q0380" target="_bank">
+                <img class="footer-slogo" src="zanzi images/finalytlogo.png">
+        </a>
+    </li>
+    <li class="ms-3">
+        <a href="https://www.instagram.com/semvandergucht/?next=%2F" target="_bank">
+                <img class="footer-slogo" src="zanzi images/finaliglogo.png">
+        </a>
+    </li>
+    <li class="ms-3">
+        <a href="https://open.spotify.com/user/31pjmsu3rstkpfzzmn6qrdvzp3hm" target="_bank">
+                <img class="footer-slogo" src="zanzi images/finalsflogo.png">
+        </a>
+    </li>
+ </ul>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
